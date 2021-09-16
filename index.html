@@ -5,35 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ada Lovelace Tribute</title>
+    <style>
+        h1 {
+            background-color: rgba(234,201,33,255); 
+            text-align: center;
+            padding: 100px;
+            font-size: 30px;
+            margin-bottom: 0;
+            }
+        h3 {
+            background-color: black;
+            color:azure;
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 0;
+            }
+        .time {background-color: white;
+                text-align: center;
+                color:black;
+            }
+        footer {
+            text-align: center;
+            background-color: rgba(234,201,33,255);
+            padding: 30px;
+            font-size: 16px;
+            color: black;
+            font: ariel
+            }
+        figure {
+            background-color: rgba(161,149,197,255); 
+            text-align:center; 
+            margin-left: 300px; 
+            margin-right: 300px;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            }
+        .title {
+            margin-bottom: 100px;
+            }
+        ul {
+            font-size: 16px;
+            font: ariel;
+            }
+        figcaption {
+            color: cornsilk;
+            padding-top: 10px;
+            }
+        .timeline {
+            padding: 10px 400px 30px 400px;
+        }
+
+
+    </style>
 </head>
 <body>
     <section>    
         <header>
-            <h1 style= "background-color: rgb(243, 216, 12, 0.981); 
-                        text-align: center;
-                        padding: 100px;
-                        font-size: 30px;
-                        "> Ada Lovelace
+            <h1> Ada Lovelace
             </h1>
         </header>
     </section>  
     <div>
-        <h3 style="background-color: black;
-                color:azure;
-                text-align: center;
-                padding: 10px;
-                font-size: 16px;"> The First Computer Programer and 19th Century Mathematician</h3>
+        <h3 class="title"> The First Computer Programer and 19th Century Mathematician</h3>
     </div>
     <div>
-        <figure style="background-color: rgb(171, 143, 227);">
-            <img src="adalovelacetopimage-2-efcacec.jpeg" alt="Ada Lovelace" >
-            <figcaption style="color: cornsilk;"> Ada, Countess of Lovelace, 1840</figcaption>
+        <figure>
+            <img src="images/adalovelacetopimage-2-efcacec.jpg" alt="Ada Lovelace" >
+            <figcaption> Ada, Countess of Lovelace, 1840</figcaption>
         </figure>
     </div>
     <main>
-        <section style="padding: 10px 450px 10px 450px;">
-            <h3>Here's a timeline of Ada Lovelace's life:</h3>
-                <ul style="font-size: 16px;font: ariel;">
+        <section class= "timeline">
+            <h3 class="time">Here's a timeline of Ada Lovelace's life:</h3>
+                <ul>
                     <li>1815 - Born in London, England</li>
                     <li>1824 - At age 12, Ada designs a steam-powered flying machine</li>
                     <li>1829 - Ada battles with a variety of illnesses during her childhood, from blinding headaches to a paralyzing bout of measles. She is bedridden for almost a year.</li>
@@ -52,13 +97,7 @@
         </section>
     </main>
 </body>
-<footer 
-    style="text-align: center;
-    background-color: rgba(243, 216, 12, 0.981);
-    padding: 30px;
-    font-size: 16px;
-    color: black;
-    font: ariel">
-    (c) codetalk 2021
+<footer>
+    &#169 codetalk 2021
 </footer>
 </html>
